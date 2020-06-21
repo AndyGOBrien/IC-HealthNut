@@ -10,7 +10,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/modules" />
+            <option value="$PROJECT_DIR$/modules/app" />
+            <option value="$PROJECT_DIR$/modules/models" />
+            <option value="$PROJECT_DIR$/modules/models/api" />
+            <option value="$PROJECT_DIR$/modules/models/domain" />
+            <option value="$PROJECT_DIR$/modules/remote" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

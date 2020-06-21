@@ -1,1 +1,4 @@
-include ':app'
+include ':modules:remote'
+include ':modules:app'
+include ':modules:models:domain'
+include ':modules:models:api'
