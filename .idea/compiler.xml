@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="api" target="1.7" />
+      <module name="data-repositories" target="1.7" />
+      <module name="IC-HealthNut-domain" target="1.7" />
+      <module name="IC-HealthNut.modules-models" target="1.7" />
+      <module name="local" target="1.7" />
+      <module name="models" target="1.7" />
+      <module name="models-domain" target="1.7" />
+      <module name="remote" target="1.7" />
+      <module name="repositories" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
