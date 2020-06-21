@@ -1,0 +1,1 @@
+The purpose of this module is for an offline cache implementation.
