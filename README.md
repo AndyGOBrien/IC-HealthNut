@@ -14,7 +14,7 @@ Everything in this project is 100% up for discussion. I am happy to explain answ
 
 # Modules
 
-## Data
+## Data Modules
 
 ### Local
 Meant for a local cache implementation. This is currently empty, as of right now it is purely meant as an example of where a local cache implementation would live.
@@ -22,7 +22,7 @@ Meant for a local cache implementation. This is currently empty, as of right now
 ###  Remote
 The NetworkResponse classes in this module are based on [this blog post](https://proandroiddev.com/create-retrofit-calladapter-for-coroutines-to-handle-response-as-states-c102440de37a). It isn't perfect but with adjustments I think this person's approach is a good start to using coroutines with the popular [Retrofit library](https://square.github.io/retrofit/).
 
-### Data models
+### Models
 
 It is my opinion that feature modules should not have any knowledge of the source of their data so the pi module is strictly kept out of feature dependencies. Instead features are dependent on domain models
 
@@ -40,4 +40,4 @@ Meant to model data seen / experienced by the end user.
 
 ## Feature Modules
 
-This is where you would build features for the android application. In this case the only feature is **Books**. More features can be easily added.
+This is where you would build features for the android application. In this case the only feature is **Books**. So as of right now there is one **Books Module** More features can be easily added.
