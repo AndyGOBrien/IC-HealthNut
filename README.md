@@ -9,7 +9,7 @@ Modularization is great for many reasons, one of the more known reasons is that 
 
 As of right now, this is primarily a proof of concept that is a work in progress and is **not** meant to be taken as a concrete example of how I would build an application meant for production.
 
-Everything in this project is 100% up for discussion. I am happy to explain answer any questions and welcome collaborative feedback.
+Everything in this project is 100% up for discussion. I am happy to answer any questions and welcome collaborative feedback.
 
 
 # Modules
@@ -24,7 +24,7 @@ The NetworkResponse classes in this module are based on [this blog post](https:/
 
 ### Models
 
-It is my opinion that feature modules should not have any knowledge of the source of their data so the pi module is strictly kept out of feature dependencies. Instead features are dependent on domain models
+It is my opinion that feature modules should not have any knowledge of the source of their data so the api model module is strictly kept out of feature dependencies. Instead features are dependent on domain models
 
 Api models are mapped to domain models, which are passed from repositories to ViewModels.
 
@@ -40,4 +40,4 @@ Meant to model data seen / experienced by the end user.
 
 ## Feature Modules
 
-This is where you would build features for the android application. In this case the only feature is **Books**. So as of right now there is one **Books Module** More features can be easily added.
+This is where you would build features for the android application. In this case the only feature is **Books**. So as of right now there is one **Books Module**.
