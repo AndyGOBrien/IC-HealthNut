@@ -3,4 +3,6 @@ apply from: '../data.gradle'
 dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation project(':data:models:api')
+    implementation project(':data:base')
 }

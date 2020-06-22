@@ -1,13 +1,14 @@
 package com.llamalabb.healthnut.remote
 
 
+import com.llamalabb.healthnut.data.base.NetworkResponse
 import retrofit2.Call
 import retrofit2.CallAdapter
 import retrofit2.Retrofit
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 
-class NetworkResponseAdapterFactory : CallAdapter.Factory() {
+internal class NetworkResponseAdapterFactory : CallAdapter.Factory() {
 
     override fun get(
         returnType: Type,
