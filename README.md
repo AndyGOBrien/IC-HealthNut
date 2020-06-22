@@ -2,10 +2,14 @@
 
 ##### This is a sample app that displays New York Times Health and Lifestyle Related Books
 
-### Goal
-Write a completely modularized sample application that enforces well thought out, well architected, scalable code for a potentially very large single application project
+### Goals
 
-Modularization is great for many reasons, one of the more known reasons is that it can help dramatically with build times. I also think that it can help enforce separation of concerns so that code is kept clean and extensible. I've noticed that as more developers are added to a project the more unwieldy the codebase can become. This approach aims to help alleviate that issue by enforcing separation of concerns through modularization.
+1. Remove my personal dependency on RxJava to move toward kotlin coroutines
+2. Use Moshi instead of Gson for Serialization / Deserialization of data
+3. Modularization
+   3. A completely modularized project enforces well thought out, well architected, scalable code for a potentially very large single application project
+   4. Modularization is great for many reasons, one of the more known reasons is that it can help dramatically with build times. I also think that it can help enforce separation of concerns so that code is kept clean and extensible. I've noticed that as more developers are added to a project the more unwieldy the codebase can become. This approach aims to help alleviate that issue by enforcing separation of concerns through modularization.
+
 
 As of right now, this is primarily a proof of concept that is a work in progress and is **not** meant to be taken as a concrete example of how I would build an application meant for production.
 
