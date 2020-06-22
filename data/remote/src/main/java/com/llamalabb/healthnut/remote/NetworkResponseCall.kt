@@ -1,5 +1,6 @@
 package com.llamalabb.healthnut.remote
 
+import com.llamalabb.healthnut.data.base.NetworkResponse
 import okhttp3.Request
 import okhttp3.ResponseBody
 import okio.Timeout

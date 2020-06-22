@@ -1,4 +1,4 @@
-package com.llamalabb.healthnut.remote
+package com.llamalabb.healthnut.data.base
 
 import java.io.IOException
 
